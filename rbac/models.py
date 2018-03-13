@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from logging import getLogger
 import itertools
-from Queue import Queue
+from queue import Queue
 
 from django.db import connection, models, transaction
 from django.db.models import Q
